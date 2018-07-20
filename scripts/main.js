@@ -18,7 +18,7 @@ var myImage = document.querySelector('img');
 myImage.onclick = function() 
 {
     var mySrc = myImage.getAttribute('src');
-    if(mySrc === '/home/abhishek/Desktop/website/test_site/images/mozilla.ico') 
+    if(mySrc === 'images/mozilla.ico') 
     {
       myImage.setAttribute ('src','images/mozilla.png');      
     } 

@@ -1,0 +1,10 @@
+width: 500px; /* width of tag 
+	border: 1px solid black; 
+
+	font-size: 10px; /* px means 'pixels': the base font size is now 10 pixels high  */
+	font-family: 'Open Sans', sans-serif; 
+	font-size: 13px;
+
+padding, the space just around the content (e.g., around paragraph text)
+border, the solid line that sits just outside the padding
+margin, the space around the outside of the element

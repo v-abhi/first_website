@@ -1,0 +1,57 @@
+//Variables
+var myVariable = 'Bob';
+myVariable = 'Steve';
+myVariable;
+
+//Comments
+/*
+Everything in between is a comment.
+*/
+
+//Operators
+6 + 9;
+"Hello " + "world!";
+
+//Conditionals
+var iceCream = 'chocolate';
+if (iceCream === 'chocolate')
+{
+	alert('Yay, I love chocolate ice cream!');    
+} 
+else
+{
+	alert('Awwww, but chocolate is my favorite...');    
+}
+
+//Functions
+var myVariable = document.querySelector('h1');
+alert('hello!');
+
+//Functions
+function multiply(num1,num2) 
+{
+  var result = num1 * num2;
+  return result;
+}
+
+multiply(4,7);
+multiply(20,20);
+multiply(0.5,3);
+
+
+//Events
+/*
+Real interactivity on a website needs events. These are code structures which listen for things happening in browser, running code in response. The most obvious example is the click event, which is fired by the browser when you click on something with your mouse. To demonstrate this, enter the following into your console, then click on the current webpage:
+*/
+
+document.querySelector('html').onclick = function() 
+{
+    alert('Ouch! Stop poking me!');
+}
+
+
+
+
+
+
+
